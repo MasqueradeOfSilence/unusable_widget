@@ -8,7 +8,6 @@ void main() {
         backgroundColor: Colors.lightBlue,
         appBar: AppBar(
           title: Text("BrightSquid: Brightness Adjuster!"),
-          // backgroundColor: Colors.lightBlue,
         ),
         body: BrightSquid()
       ),
