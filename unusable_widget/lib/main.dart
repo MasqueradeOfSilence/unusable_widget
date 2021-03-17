@@ -67,7 +67,7 @@ class BrightSquidState extends State<BrightSquid> {
   }
 
   double lerpForceToBrightness(double force) {
-    // Interpolate from a 0 - 2 scale to 0 - 255.
+    // Interpolate from a 0 - 1 scale to 0 - 255.
     double brightness = 128;
     brightness = force * 255;
     return brightness;
